@@ -1,0 +1,10 @@
+{:http {:port 8011
+        :mode :dev
+        :session-key-path "sessionkey"
+        :cdn-host "http://localhost:8000"
+        :autologin-check-url "http://localhost:8000/internal/autologin/user"
+        :arkisto {:host "http://localhost:8012/onkalo"
+                  :app-id "abcdefg"
+                  :app-key "12356afbsb"}}
+ :db {:uri "mongodb://localhost/lupapiste"}
+ :logging {:level :info}}
